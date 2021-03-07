@@ -12,15 +12,6 @@ class FragDemo : Fragment() {
         Log.i("FragmentActivity---->","onCreate")
     }
 
-    override fun onCreateView(
-        inflater: LayoutInflater,
-        container: ViewGroup?,
-        savedInstanceState: Bundle?
-    ): View? {
-        return inflater.inflate(R.layout.fragment_frag__demo, container, false)
-        Log.i("FragmentActivity---->","onCreateView")
-    }
-
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
         Log.i("FragmentActivity---->","onViewCreated")
